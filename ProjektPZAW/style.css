@@ -1,0 +1,72 @@
+body{
+    height: 100%;
+}
+div {
+    height: 916px;
+}
+header, nav {
+    background-color: aqua;
+    height: 10%;
+}
+nav {
+    text-align: center;
+    letter-spacing: 20px;
+    font-size: 30px;
+}
+main {
+    background-color:bisque;
+    height: 80%;
+}
+footer {
+    background-color: azure;
+    height: 10%;
+}
+main > section{
+    margin: 10px;
+    background-color: aquamarine;
+    height: 20%;
+}
+main > .sect1 {
+    
+}
+main > .sect2 {
+    
+}
+main > div {
+    height: 50%;
+    margin: 20px;
+    background-color: cornflowerblue;
+}
+div > header, div > nav {
+    float: left;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a :hover {
+    color: white;
+}
+/* Dropdown menu */
+.userBtn {
+    cursor: pointer;
+}
+#DropdownItems {
+    display: none;
+    visibility: hidden;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+#DropdownItems a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+#DropdownItemst a:hover {
+    background-color: #ddd;
+}
+.visible {
+    display: block;
+    visibility: visible;
+}
