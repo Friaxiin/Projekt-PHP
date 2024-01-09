@@ -9,25 +9,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="container-fluid">
-    <div class="row">
+    <div class="row height">
         <header class="col-7">
             <a href="index.php">nagłówek</a>
         </header>
         <nav class="col-5">
-            <i class='bx bxs-user-circle userBtn' onclick="toggleUserDropdown()"></i>
-            <a href="Wyszukiwarka.php"><i class='bx bx-search-alt-2'></i></a>
-            <a href="ProfilePracodawcow"><i class='bx bx-briefcase-alt-2'></i></a>
+            <div class="dropdown">
+                <a href="#"><i class='bx bx-home-alt-2'></i></a>
+                <i class='bx bx-user-circle userBtn' id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><a href="ProfilUzytkownika.php"><button class="dropdown-item" type="button">Mój profil</button></li>
+                    <li><a href="Login.php"><button class="dropdown-item" type="button">Zaloguj się</button></li>
+                </ul>
+
+                <a href="Wyszukiwarka.php"><i class='bx bx-search-alt-2'></i></a>
+                <a href="ProfilePracodawcow.php"><i class='bx bx-briefcase-alt-2'></i></a>
+            
+            </div>
         </nav>
-        <div id="DropdownItems">
-            <a href="">Mój profil</a>
-            <a href="">Zaloguj</a>
-        </div>
+
         <main>
             <section class="sect1">
                 najnowsze oferty
             </section>
     
-            <div>
+            <div class="main height">
                 Main
             </div>
         
