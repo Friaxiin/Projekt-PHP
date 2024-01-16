@@ -29,6 +29,15 @@
         </nav>
 
         <main>
+            <div class="row">
+                <div class="col-3" style="background-color: red; margin: 20px; height:100px">
+                    <img src="" alt="zdjęcie profilowe" style="background-color: blue; margin: 20px">
+                </div>
+
+                <div class="col-6" style="background-color: yellow; height:200px">
+                    
+                </div>
+            </div>
             
         </main>
     

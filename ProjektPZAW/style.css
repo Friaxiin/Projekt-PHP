@@ -19,7 +19,7 @@ main {
 }
 footer {
     background-color: azure;
-    height: 10%;
+    height: 5%;
 }
 main > section{
     margin: 10px;

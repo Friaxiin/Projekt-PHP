@@ -11,7 +11,8 @@
 <body class="container-fluid">
     <div class="row height">
         <header class="col-7">
-            <a href="index.php">nagłówek</a>
+            <a href="index.php"><img src="" alt="logo"></a>
+            <a href="index.php">Nazwa serwisu</a>
         </header>
         <nav class="col-5">
             <div class="dropdown">
@@ -30,7 +31,13 @@
 
         <main>
             <section class="sect1">
-                najnowsze oferty
+                <div class="card col-2">
+                    <div class="card-body">
+                        <h5 class="card-title">Tytuł</h5>
+                        <p class="card-text">Kontent</p>
+                        <a href="#" class="card-link">Przejdź do oferty</a>
+                    </div>
+                </div>
             </section>
     
             <div class="main height">
@@ -43,8 +50,12 @@
         </main>
     
     
-        <footer>
-            stopka
+        <footer class="row justify-content-end">
+            <div>
+                <p>Kontakt:</p>
+                <p>E-mail: email@gmail.com</p>
+                <p>Tel: 123123123</p>
+            </div> 
         </footer>
     </div>
 

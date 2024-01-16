@@ -28,7 +28,32 @@
             </div>
         </nav>
         <main>
-           
+            <div class="row">
+                    <div class="col-1">
+
+                    </div>
+                    <div class="col-10">
+                        <input type="text" placeholder="tytuł" class="col-2">
+                        <input type="text" placeholder="firma" class="col-2">
+                        <input type="text" placeholder="kategoria" class="col-2">
+                        <input type="submit" value="Szukaj" class="col-2">
+                    </div>
+                    <div class="col-1">
+
+                    </div>
+                    
+            </div>
+            <div class="row">
+                    <div class="col-2">
+
+                    </div>
+                    <div class="col-8" style="background-color: red; height: 300px; margin-top: 20px">
+                        Zawartość wyszukana
+                    </div>
+                    <div class="col-2">
+
+                    </div>
+            </div>
         </main>
     
     
