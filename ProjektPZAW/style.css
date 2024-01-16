@@ -1,25 +1,29 @@
 body{
     height: 100%;
+    overflow: hidden;
 }
 .height {
     height: 916px;
 }
-header, nav {
+.nav > header, .nav > nav{
     background-color: aqua;
-    height: 10%;
+    height: 100%;
+
 }
-nav {
+.nav > nav {
     text-align: center;
     letter-spacing: 20px;
     font-size: 30px;
 }
+.height10 {
+    height: 10vh;
+}
+.pagination {
+    
+}
 main {
     background-color:bisque;
     height: 80%;
-}
-footer {
-    background-color: azure;
-    height: 5%;
 }
 main > section{
     margin: 10px;
@@ -40,6 +44,11 @@ a {
 }
 a :hover {
     color: white;
+}
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: green;
 }
 /* Dropdown menu */
 .userBtn {
